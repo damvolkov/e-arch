@@ -1,0 +1,34 @@
+[project]
+name = "aeda"
+version = "0.1.0"
+description = "Agentic Event-Driven Architecture — framework-agnostic reactive engine for AI agents."
+readme = "README.md"
+authors = [
+    { name = "damvolkov", email = "damvolkovv@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pydantic-ai[google]>=1.77.0",
+    "pydantic-settings>=2.13.1",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.25",
+    "pytest-mock>=3.14",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aeda"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
