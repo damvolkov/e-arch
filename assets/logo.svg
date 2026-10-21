@@ -1,0 +1,25 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="e-arch">
+  <rect width="1024" height="1024" fill="#060c15"/>
+  <g fill="#166b7e">
+    <rect x="37" y="391" width="27"  height="241"/>
+    <rect x="37" y="391" width="141" height="24"/>
+    <rect x="37" y="486" width="121" height="24"/>
+    <rect x="37" y="607" width="141" height="24"/>
+    <rect x="198" y="486" width="121" height="24"/>
+    <rect x="360" y="391" width="24"  height="241"/>
+    <rect x="476" y="391" width="24"  height="241"/>
+    <rect x="360" y="391" width="141" height="24"/>
+    <rect x="360" y="498" width="141" height="24"/>
+    <rect x="522" y="391" width="24"  height="241"/>
+    <rect x="522" y="391" width="141" height="24"/>
+    <rect x="522" y="498" width="141" height="24"/>
+    <rect x="638" y="391" width="24"  height="132"/>
+    <rect x="621" y="523" width="41"  height="109"/>
+    <rect x="683" y="391" width="141" height="24"/>
+    <rect x="683" y="607" width="141" height="24"/>
+    <rect x="683" y="391" width="24"  height="241"/>
+    <rect x="845" y="391" width="24"  height="241"/>
+    <rect x="961" y="391" width="24"  height="241"/>
+    <rect x="845" y="498" width="141" height="24"/>
+  </g>
+</svg>
